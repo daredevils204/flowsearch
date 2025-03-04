@@ -83,7 +83,7 @@ export function ChatPanel({
     >
       {messages.length === 0 && (
         <div className="mb-8 grid items-center justify-center">
-          <IconLogo className="size-12 text-muted-foreground" />
+          <h1 clasName="font-bold text-xl">fl<span className="text-fuchsia-400">.</span></h1>
         </div>
       )}
       <form
