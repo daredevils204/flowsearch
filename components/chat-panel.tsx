@@ -82,7 +82,7 @@ export function ChatPanel({
       )}
     >
       {messages.length === 0 && (
-        <div className="mb-8 flex items-center justify-center">
+        <div className="mb-8 grid items-center justify-center">
           <IconLogo className="size-12 text-muted-foreground" />
           <h1>Revolutionize Your Search with AI-Powered Intelligence</h1>
         </div>
